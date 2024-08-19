@@ -1,0 +1,277 @@
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 5px;
+}
+
+.gallery img {
+  width: 282.5px;
+  height: 282.5px;
+  object-fit: contain;
+  
+}
+
+.upload-btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.profile-main{
+  background-color:transparent;
+  
+  margin-left: 21%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 100vh;
+  width: 77%;
+  
+}
+.imgholder{
+  height: 150px;
+  width: 283px;
+  margin: 0px 20px 0px 30px;
+  justify-content: center;
+}
+
+.profile img{
+  margin-top: 30px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.name-section{
+  height: 5vh;
+  width: fit-content;
+  text-align: start;
+  color: rgb(7, 7, 7);
+  background-color:transparent;
+  font-family: 'Segoe UI';
+  font-size: 22px;
+  font-weight:400;
+  position: relative;
+  display: block;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: -14%;
+  margin-left:32% ;
+}
+
+.name-section button{
+  background-color: #dbdbdbc5;
+  border: none;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  padding: 6px 14px 6px 14px;
+  justify-content: space-between;
+  display: block;
+  float:inline-end;
+  border-radius: 8px;
+  margin-right: 5px;
+  margin-left:5px ;
+  font-size: 14px;
+}
+.name-section button:hover{
+  background-color: rgb(177, 175, 175);
+
+}
+
+.name-section img{
+  height: 28px;
+  width: 28px;
+  float:inline-end;
+  margin-left: 5px;
+}
+
+.name-section img:hover{
+  transform: rotate(90deg);
+  cursor: pointer;
+  transition-behavior: smooth;
+  transition: .5s all ease-out;
+
+}
+
+.pff{
+  height: 4vh;
+  width: 300px;
+  background-color: transparent;
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 32%;
+}
+
+.bio{
+  height: 80px;
+  width: 250px;
+  text-align: start;
+  display: grid;
+  margin-top: 30px;
+  margin-left: 32%;
+}
+
+.highlight-section{
+  height: 174px;
+  width: 935px;
+  margin-left: 4%;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.highlights{
+  height: 130px;
+  width: 935px;
+  margin-top: 50px;
+}
+
+.highlight{
+  height: 120px;
+  width: 125px;
+  margin-left: 18px;
+  margin-right: 24px;
+}
+
+.highlight img{
+  height: 48px;
+  width: 48px;
+  padding: 18px;
+  border: .5px solid #DBDBDB;
+  border-radius: 50%;
+  background-color:#f1efefc5;
+}
+.tablist{
+  height: 53px;
+  width: auto;
+  margin-left: 4%;
+  position: relative;
+  justify-content: center;
+  display: flex;
+}
+
+.posts img{
+  height: 15px;
+  width: 15px;
+}
+
+.posts{
+  height: 52px;
+  width: 68px;
+  margin-right: 60px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float:right;
+  position: relative;
+}
+
+.posts:hover{
+  cursor: pointer;
+  border-top: 1px solid black;
+}
+
+.saved{
+  height: 52px;
+  width: 69px;
+  font-size: 14px;
+  position: relative;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float:right;
+}
+.saved img{
+  height: 20px;
+  width: 20px;
+}
+
+.saved:hover{
+  border-top: 1px solid black;
+}
+
+.tag{
+  height: 52px;
+  width: 79px;
+  font-size: 14px;
+  position: relative;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float:right;
+}
+
+.tag img{
+  height: 20px;
+  width: 20px;
+}
+.tag:hover{
+  border-top: 1px solid black;
+}
+
+.post-section{
+  height: auto;
+  padding-bottom: 70px;
+  width: 935px;
+  margin-left: 4%;
+}
+
+.contactinfo{
+  height: 135px;
+  width: 1041px;
+  background-color: #dbdbdbc5;
+}
+
+.contact{
+  margin-bottom: 52px;
+  position: relative;
+  flex-direction: column;
+}
+.contact a{
+  text-decoration: none;
+  color:#737373;
+  font-size: 12px;
+  padding-right: 15px;
+}
+
+.contact a:hover{
+  text-decoration: underline;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.contact select{
+  background-color: transparent;
+  border:none;
+  margin-top: 20px;
+}
+
+.changePic-box{
+  height: 200px;
+  margin-left: -140px;
+  background-color: rgb(235, 231, 231);
+  width: 400px;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 4px 5px 35px black;
+}
+
+.changePic-box div{
+    padding: 9px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.changePic-box h2{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
